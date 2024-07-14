@@ -167,3 +167,65 @@
     border: 1px solid rgb(174, 168, 168);
     border-radius: 16px;
 }
+
+/* skills */
+
+.target {
+    width: 980px;
+    margin: 50px auto;
+}
+
+.target>h2,
+.target>p {
+    text-align: center;
+}
+
+.target>h2 {
+    margin-bottom: 20px;
+}
+
+.skills {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 38px 0px;
+
+}
+
+.skill {
+    padding: 40px 20px;
+}
+
+.skill .skill-img {
+    margin-bottom: 10px;
+}
+
+.third-btn {
+    border: none;
+    text-decoration: none;
+
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: transparent;
+
+
+}
+
+.third-btn a {
+    color: #0D1321;
+}
+
+.card-1 {
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.card-2 {
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.card-3 {
+    background-color: rgba(255, 223, 0, 0.05);
+}
