@@ -229,3 +229,49 @@
 .card-3 {
     background-color: rgba(255, 223, 0, 0.05);
 }
+
+/* support style */
+.support {
+    background-image: url('../assets/handshake.jpg');
+
+    background-position: center;
+    background-size: cover;
+    width: 840px;
+    margin: 0 auto;
+    padding: 65px;
+    border-radius: 16px;
+    text-align: center;
+    height: 150px;
+
+}
+
+.support h3 {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.support p {
+    color: #ffffff;
+    margin-bottom: 20px;
+
+}
+
+.support input[type="text"] {
+    height: 20px;
+    width: 350px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+
+
+}
+
+.support input[type="submit"] {
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+
+}
