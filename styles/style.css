@@ -275,3 +275,16 @@
     font-weight: bold;
 
 }
+
+/* footer styling */
+#footer-area {
+    margin-top: 50px;
+    padding: 20px 250px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+
+.footer-logo img {
+    padding-right: 10px;
+}
