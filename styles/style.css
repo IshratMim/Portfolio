@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+
+
+/* common styles */
+.common-p {
+    font-size: 16px;
+    color: #717275;
+}
+
+.secondary-btn {
+    background-color: #ffffff;
+    padding: 10px 16px;
+    margin-top: 28px;
+
+    border-color: 1px solid lightslategray;
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.secondary-btn a {
+    text-decoration: none;
+    color: rgba(13, 19, 33, 0.5);
+}
+
+/* banner styling */
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/Hero-bg.png");
+    background-position: cover;
+    text-align: center;
+    height: 550px;
+
+
+}
+
+.banner img {
+    margin-bottom: 40px;
+}
+
+
+.banner-heading {
+    font-size: 40px;
+
+}
+
+.banner-p {
+    padding: 0px 40px;
+
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    background-color: #0D1321;
+
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.btn-primary a {
+    text-decoration: none;
+    color: #ffffff;
+}
